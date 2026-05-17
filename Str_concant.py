@@ -11,3 +11,16 @@ A= "Jhon"
 B = "Doe"
 
 print(A+ " "+ B)
+
+name = "Jhon"
+age = "25"
+
+print(f"Hello, my name is {name} and I am {age} years old.")
+
+
+
+c= str(input("enter your name "))
+d= int(input("enter your birth year "))
+
+u=c.lower()
+print(f"{u}_{d}")
